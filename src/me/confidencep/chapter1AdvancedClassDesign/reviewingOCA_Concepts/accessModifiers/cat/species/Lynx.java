@@ -4,6 +4,11 @@ import me.confidencep.chapter1AdvancedClassDesign.reviewingOCA_Concepts.accessMo
 
 public class Lynx extends BigCat {
 
+    /** WE COULD OVERRIDE PUBLIC METHOD HERE */
+    //    public void publicMethod(String var) {
+    //        System.out.println(var + "We are in in Lynx Public Method");
+    //    }
+
     public static void main(String[] args) {
 
         System.out.println("********** INSTANCE VARIABLES **********");
