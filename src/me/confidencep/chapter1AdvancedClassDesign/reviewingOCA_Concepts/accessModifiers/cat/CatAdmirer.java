@@ -14,6 +14,7 @@ public class CatAdmirer {
          * */
         BigCat testClass = new BigCat();
         BigCat.TestClassPublic check = testClass.new TestClassPublic();
+        System.out.println(check.testMethod("Checking Public (None Static): "));
         System.out.println(testClass.testMethod2("Checking TestClass in CatAdmirer: "));
 
         BigCat.TestClassPublicStatic xyz = new BigCat.TestClassPublicStatic();
